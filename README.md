@@ -43,7 +43,7 @@ Created Repo and README.md for fungal app (fungalTaxonomy)
 
 ## 2019_04_05
 - Created Repo for mentor tracking (mentorJournal)
-- Downloaded Node.js (https://nodejs.org/en/) which is the installable binaries for running javascript from the command line.
+- Downloaded Node.js (https://nodejs.org/en/) which is the installable binaries for running JS from the command line.
 - Downloaded npm (node package manager) (https://www.npmjs.com/) which is a package manager similar to pip for python. It allows you to install third-party packages in your project. When you install them, they create a “node-modules” directory in your project that holds all the JavaScript sources. This is bundled with nodejs, so you essentially get it for free.
 - Downloaded yarn. Alternative package manager to npm. Newer and different syntax. Widely used in open-source.
 - Already have Visual Studio Code installed (https://code.visualstudio.com/). Great IDE. Feels like it's built around JS development, but does have plugins for python or c++. VIM plugin as well. (BOoooooO). 
@@ -52,12 +52,12 @@ Created Repo and README.md for fungal app (fungalTaxonomy)
 ``` bash
 npm install eslint --save-dev
 ```
-- How to run:
+	- How to run:
 		- Set up config file:
 ``` bash
 ./node_modules/.bin/eslint --init
 ```
-- After that, you can run ESLint in your project’s root directory like this:
+	- After that, you can run ESLint in your project’s root directory like this:
 ``` bash
 ./node_modules/.bin/eslint yourfile.js
 ```
@@ -69,14 +69,12 @@ export PATH=~/.npm-global/bin:$PATH >> ~/.bash_profile
 source ~/.bash_profile
 npm install -g prettier
 ```
-
+- The above methods are sterring me in the direction of Javascript/Node.js. The same can be accomplished with something like Python/Django. Concepts will be similar regardless of language.
 
 
 Recommended tutorials:
 - https://nodeschool.io/#workshoppers - This is a good one for getting an understanding of syntax. The learnyouode portion is something I used when initially learning.
 - https://github.com/getify/You-Dont-Know-JS/blob/master/README.md - Javascript language itself.
-
-
 
 
 Questions:
@@ -86,9 +84,13 @@ Questions:
 	- "lint was the name originally given to a particular program that flagged some suspicious and non-portable constructs (likely to be bugs) in C language source code. The term is now applied generically to tools that flag suspicious usage in software written in any computer language." -from Wikipedia
 - npx?
 	- npx is a npm package runner
-- What did i do with prettier? Why did that not install properly? (https://stackoverflow.com/questions/46058546/error-eacces-permission-denied-access-usr-lib-node-modules)
+- What did i do with prettier? Why was that throwing errors? (https://stackoverflow.com/questions/46058546/error-eacces-permission-denied-access-usr-lib-node-modules)
 
-
+Todo:
+- Watch tutorials
+- Set up project
+- Send Mike repos
+- Try to answer me own questions
 
 
 
