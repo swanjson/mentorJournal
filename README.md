@@ -43,27 +43,38 @@ Created Repo and README.md for fungal app (fungalTaxonomy)
 
 ## 2019_04_05
 - Created Repo for mentor tracking (mentorJournal)
-- Downloaded Node.js which is the installable binaries for running javascript from the command line.
-- Downloaded npm (node package manager) which is a package manager similar to pip for python. It allows you to install third-party packages in your project. When you install them, they create a “node-modules” directory in your project that holds all the JavaScript sources. This is bundled with nodejs, so you essentially get it for free.
+- Downloaded Node.js (https://nodejs.org/en/) which is the installable binaries for running javascript from the command line.
+- Downloaded npm (node package manager) (https://www.npmjs.com/) which is a package manager similar to pip for python. It allows you to install third-party packages in your project. When you install them, they create a “node-modules” directory in your project that holds all the JavaScript sources. This is bundled with nodejs, so you essentially get it for free.
 - Downloaded yarn. Alternative package manager to npm. Newer and different syntax. Widely used in open-source.
-- Already have Visual Studio Code installed. Great IDE. Feels like it's built around JS development, but does have plugins for python or c++. VIM plugin as well. (BOoooooO). 
-- Installed eslint 
-	Download:
+- Already have Visual Studio Code installed (https://code.visualstudio.com/). Great IDE. Feels like it's built around JS development, but does have plugins for python or c++. VIM plugin as well. (BOoooooO). 
+- Installed eslint(https://eslint.org/). A linter for JS. Customizable rules. Linting is the process of running a program that will analyse code for potential errors.
+	- Download:
+``` bash
 	npm install eslint --save-dev
-	How to run:
-	Set up config file:
-	$ ./node_modules/.bin/eslint --init
-	After that, you can run ESLint in your project’s root directory like this:
-	$ ./node_modules/.bin/eslint yourfile.js
-
+```
+	- How to run:
+		- Set up config file:
+``` bash
+	./node_modules/.bin/eslint --init
+```
+		- After that, you can run ESLint in your project’s root directory like this:
+``` bash
+	./node_modules/.bin/eslint yourfile.js
+```
+- Installed prettier (https://github.com/prettier/prettier). An opinionated code formatter. Because of permissions I had to do the following:
+``` bash
+	mkdir ~/.npm-global
+	npm config set prefix '\~/.npm-global'
+	export PATH=~/.npm-global/bin:$PATH >> ~/.bash_profile
+	source ~/.bash_profile
+	npm install -g prettier
+```
 
 
 
 Recommended tutorials:
 - https://nodeschool.io/#workshoppers - This is a good one for getting an understanding of syntax. The learnyouode portion is something I used when initially learning.
-- https://github.com/getify/You-Dont-Know-JS/blob/master/README.md - Javascript language itself. (edited) 
-- 
-
+- https://github.com/getify/You-Dont-Know-JS/blob/master/README.md - Javascript language itself.
 
 
 
@@ -73,7 +84,9 @@ Questions:
 - Linting?
 	- Linting is the process of running a program that will analyse code for potential errors.
 	- "lint was the name originally given to a particular program that flagged some suspicious and non-portable constructs (likely to be bugs) in C language source code. The term is now applied generically to tools that flag suspicious usage in software written in any computer language." -from Wikipedia
-
+- npx?
+	- npx is a npm package runner
+- What did i do with prettier? Why did that not install properly? (https://stackoverflow.com/questions/46058546/error-eacces-permission-denied-access-usr-lib-node-modules)
 
 
 
