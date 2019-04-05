@@ -19,10 +19,6 @@ function logLines(){
 }
 getLines(logLines)
 
-
-
-
-
 /*Official solution:
 
 var fs = require('fs')
@@ -38,5 +34,3 @@ fs.readFile(file, function (err, contents) {
 })
 
 */
-
-
