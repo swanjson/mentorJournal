@@ -85,12 +85,13 @@ Questions:
 - npx?
 	- npx is a npm package runner
 - What did i do with prettier? Why was that throwing errors? (https://stackoverflow.com/questions/46058546/error-eacces-permission-denied-access-usr-lib-node-modules)
+- Bullet point spacing on markdown file is off.
 
 Todo:
-- Watch tutorials
+- Start tutorials (Started)
 - Set up project
-- Send Mike repos
-- Try to answer me own questions
+- Send Mike repos (DONE)
+- Try to answer my own questions
 
 - Started the tutorials.
 - Yarn and npm weren't installing on the iconwireless networks. Switched networks and stuff installed just fine.
@@ -99,7 +100,11 @@ Todo:
 source ~/.bash_profile
 export PATH=/Users/jay.swanson/.npm-global/lib/node_modules/learnyounode/bin/:$PATH
 ```
+- Comments in JS are just like c++
 
+
+
+## 2019_04
 
 
 
