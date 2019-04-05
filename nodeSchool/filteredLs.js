@@ -12,19 +12,22 @@ You must use asynchronous I/O.
 
 //EX INPUT: node program.js /path/to/dir/ js
 
-//The fs.readdir() method takes a pathname as its first argument and a callback as its second. The callback signature is: function callback (err, list) { /* ... */ }
+//You may also find node's path module helpful, particularly the extname method. https://nodejs.org/api/path.html#path_path_extname_path
 
+//allows you to work with the file system on your computer
 var fs = require('fs')
-var dirs = undefined
+//provides utilities for working with file and dir paths
+var path = require('path')
+var fileType = ('.' + process.argv[3])
 
-function getDirs
-fs.readdir(process.argv[2], 'utf8', function doneReading(err, fileContents) {
-
-
-function logDirs(){
-	console.log(dirs)
-}
-getDirs(logDirs)
-
-
-
+//The fs.readdir() method takes a pathname as its first argument and a callback as its second. The callback signature is: function callback (err, list) { /* ... */ }
+fs.readdir(process.argv[2], function callback(err, list) {
+	//array.forEach(function(element)) will loop through an array with the function's element being the limiter
+	list.forEach(function (file) {
+		//.extname declares the extension name of path
+		//Here I compare it to the given 4th argument
+		if (path.extname(file) === fileType)
+			//prints the file name if it contains the given extension
+			console.log(file)
+	})
+})
