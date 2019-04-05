@@ -92,8 +92,6 @@ Todo:
 - Send Mike repos
 - Try to answer me own questions
 
-
-
 - Started the tutorials.
 - Yarn and npm weren't installing on the iconwireless networks. Switched networks and stuff installed just fine.
 - Had to figure out PATHs for the shortcuts. In \~/.bash_profile you must put the path to the folder the executable is contained in example:
