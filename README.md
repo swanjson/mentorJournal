@@ -50,24 +50,24 @@ Created Repo and README.md for fungal app (fungalTaxonomy)
 - Installed eslint(https://eslint.org/). A linter for JS. Customizable rules. Linting is the process of running a program that will analyse code for potential errors.
 	- Download:
 ``` bash
-	npm install eslint --save-dev
+npm install eslint --save-dev
 ```
-	- How to run:
+- How to run:
 		- Set up config file:
 ``` bash
-	./node_modules/.bin/eslint --init
+./node_modules/.bin/eslint --init
 ```
-		- After that, you can run ESLint in your project’s root directory like this:
+- After that, you can run ESLint in your project’s root directory like this:
 ``` bash
-	./node_modules/.bin/eslint yourfile.js
+./node_modules/.bin/eslint yourfile.js
 ```
 - Installed prettier (https://github.com/prettier/prettier). An opinionated code formatter. Because of permissions I had to do the following:
 ``` bash
-	mkdir ~/.npm-global
-	npm config set prefix '\~/.npm-global'
-	export PATH=~/.npm-global/bin:$PATH >> ~/.bash_profile
-	source ~/.bash_profile
-	npm install -g prettier
+mkdir ~/.npm-global
+npm config set prefix '\~/.npm-global'
+export PATH=~/.npm-global/bin:$PATH >> ~/.bash_profile
+source ~/.bash_profile
+npm install -g prettier
 ```
 
 
