@@ -73,7 +73,7 @@ npm install -g prettier
 
 
 Recommended tutorials:
-- https://nodeschool.io/#workshoppers - This is a good one for getting an understanding of syntax. The learnyouode portion is something I used when initially learning.
+- https://nodeschool.io/#workshoppers - This is a good one for getting an understanding of syntax. The learnyounode portion is something I used when initially learning.
 - https://github.com/getify/You-Dont-Know-JS/blob/master/README.md - Javascript language itself.
 
 
@@ -91,6 +91,16 @@ Todo:
 - Set up project
 - Send Mike repos
 - Try to answer me own questions
+
+
+
+- Started the tutorials.
+- Yarn and npm weren't installing on the iconwireless networks. Switched networks and stuff installed just fine.
+- Had to figure out PATHs for the shortcuts. In \~/.bash_profile you must put the path to the folder the executable is contained in example:
+```bash
+source ~/.bash_profile
+export PATH=/Users/jay.swanson/.npm-global/lib/node_modules/learnyounode/bin/:$PATH
+```
 
 
 
