@@ -86,6 +86,14 @@ Questions:
 	- npx is a npm package runner
 - What did i do with prettier? Why was that throwing errors? (https://stackoverflow.com/questions/46058546/error-eacces-permission-denied-access-usr-lib-node-modules)
 - Bullet point spacing on markdown file is off.
+- What's the difference between synchronous and asynchronous??? (ex: nodeSchool/myFirstIO and nodeSchool/myFirstAsyncIO)
+	- https://github.com/maxogden/art-of-node#callbacks
+	- Callbacks are functions that are executed asynchronously, or at a later time. Instead of the code reading top to bottom procedurally, async programs may execute different functions at different times based on the order and speed that earlier functions like http requests or file system reads happen.
+	- In JavaScript, functions are objects. Because of this, functions can take functions as arguments, and can be returned by other functions. Functions that do this are called higher-order functions. Any function that is passed as an argument is called a callback function.
+	- Node, however, uses mostly asynchronous code.
+- my npm didn't install the learnyounode PATH?
+- why not just use readFileSync?
+- what are .yml files?
 
 Todo:
 - Start tutorials (Started)
@@ -101,6 +109,7 @@ source ~/.bash_profile
 export PATH=/Users/jay.swanson/.npm-global/lib/node_modules/learnyounode/bin/:$PATH
 ```
 - Comments in JS are just like c++
+
 
 
 
