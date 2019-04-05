@@ -30,6 +30,7 @@ Questions:
 Had meeting with Mike
 - Introductions and Backgrounds
 - Talked through some project possibilities
+- Agreed on full-stack project
 
 Ordered the following books:
 - https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X
@@ -40,11 +41,39 @@ Ordered the following books:
 Created Repo and README.md for fungal app (fungalTaxonomy)
 
 
-
-
 ## 2019_04_05
 - Created Repo for mentor tracking (mentorJournal)
-- Downloaded npm which is a package manager similar to pip for python.
+- Downloaded Node.js which is the installable binaries for running javascript from the command line.
+- Downloaded npm (node package manager) which is a package manager similar to pip for python. It allows you to install third-party packages in your project. When you install them, they create a “node-modules” directory in your project that holds all the JavaScript sources. This is bundled with nodejs, so you essentially get it for free.
+- Downloaded yarn. Alternative package manager to npm. Newer and different syntax. Widely used in open-source.
+- Already have Visual Studio Code installed. Great IDE. Feels like it's built around JS development, but does have plugins for python or c++. VIM plugin as well. (BOoooooO). 
+- Installed eslint 
+	Download:
+	npm install eslint --save-dev
+	How to run:
+	Set up config file:
+	$ ./node_modules/.bin/eslint --init
+	After that, you can run ESLint in your project’s root directory like this:
+	$ ./node_modules/.bin/eslint yourfile.js
+
+
+
+
+Recommended tutorials:
+- https://nodeschool.io/#workshoppers - This is a good one for getting an understanding of syntax. The learnyouode portion is something I used when initially learning.
+- https://github.com/getify/You-Dont-Know-JS/blob/master/README.md - Javascript language itself. (edited) 
+- 
+
+
+
+
+
+Questions:
+- Node Version Manager (nvm)?
+- Linting?
+	- Linting is the process of running a program that will analyse code for potential errors.
+	- "lint was the name originally given to a particular program that flagged some suspicious and non-portable constructs (likely to be bugs) in C language source code. The term is now applied generically to tools that flag suspicious usage in software written in any computer language." -from Wikipedia
+
 
 
 
