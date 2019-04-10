@@ -116,7 +116,8 @@ export PATH=/Users/jay.swanson/.npm-global/lib/node_modules/learnyounode/bin/:$P
 Finishing up the Module challenge i'm starting to get a hang of syntax the only that is straining is passing functions through and callbacks. Still need to break down that last one.
 
 ## 2019_04_10
-- Started learnyounode
+- Started learnyounode course
+- Finished two lessons
 
 
 
