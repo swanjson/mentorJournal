@@ -116,11 +116,12 @@ export PATH=/Users/jay.swanson/.npm-global/lib/node_modules/learnyounode/bin/:$P
 Finishing up the Module challenge i'm starting to get a hang of syntax the only that is straining is passing functions through and callbacks. Still need to break down that last one.
 
 ## 2019_04_10
-- Started learnyounode course
+- Started learnyounode course again
 - Finished two lessons
 
 ## 2019_04_12
-- What's the deal with the data collected from http? 
+- What's the deal with the data collected from http?
+	- must've just been a url with the strings required to test the code for nodeschool
 
 ## 2019_04_16
 
@@ -152,7 +153,6 @@ Goals:
 - Resume
 	- update and send to mike in Latex for look over for content
 	- then get a github resume/website up
-
 
 
 
