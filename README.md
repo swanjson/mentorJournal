@@ -119,6 +119,53 @@ Finishing up the Module challenge i'm starting to get a hang of syntax the only 
 - Started learnyounode course
 - Finished two lessons
 
+## 2019_04_12
+- What's the deal with the data collected from http? 
+
+## 2019_04_16
+
+Meeting with Mike:
+- nvm will switch which node version you're using. Kind of like switching python versions. Virtual Environments. .nvmrc file "this project uses node at this version"
+- Linting checks code for errors like varibles not being used and such
+- Functional Programming (Elm) Higher order function which is function that takes another function. (like what happens when using callbacks or promises)
+- Promises? "like callback" More concrete. Basically you set it as a callback but once it gets called you can tell it to do something after.
+- node.js to start servers
+- Semi colons kind of just old school syntax, not always required but sometimes
+- concept of webAPI
+- .yml https://en.wikipedia.org/wiki/YAML
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+- Postman "tool to save request with url sends data back"
+- gitHub site uses Gatsby (static site generator) looking at https://github.com/jdd1260/jdd1260.github.io for reference point
+- Anything you can usually see on GitHub is open source.
+
+Goals:
+- Nodeschool/jsSchool
+	- make jsSchool folder
+	- make each project a feature branch and merge when done
+- Start project
+	- mike will send me samples of APIs and tools to start backend
+	- get data into json file
+	- backend in one repo (only exposes api calls)
+	- front end in another (set up UI later)
+	- http calls between the two
+	- express js webserver Express will put backend onto a temp server for front end to grab
+- Resume
+	- update and send to mike in Latex for look over for content
+	- then get a github resume/website up
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
