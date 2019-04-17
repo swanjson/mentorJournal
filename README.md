@@ -191,6 +191,8 @@ Also took a while to realize git doesn't recognize changes in case.
 
 tableau public to display data from sheets.
 
+link for travis: https://travis-ci.com/swanjson/swanjson.github.io
+
 
 
 
