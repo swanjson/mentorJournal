@@ -154,13 +154,42 @@ Goals:
 	- update and send to mike in Latex for look over for content
 	- then get a github resume/website up
 
+Links from Mike:
+"Here are links to some of the things we discussed today":
+- https://www.getpostman.com/ - Postman. This is a good testing tool for hitting REST API endpoints and seeing the responses that come back. It can get complex if you want it to, but it also just allows for quick and dirty trying out HTTP requests and seeing responses. Works on webpages, too, but you'll just get the raw HTML.
+- REST API tutorial using Node / Express: https://medium.freecodecamp.org/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2 Uses mongo as the database back-end, but should give you enough a springboard that you can do similar with just a JSON file to start with.
+- https://www.gatsbyjs.org/: This is the back-end that runs Joel's personal website. Really helpful static site generator.
+- Good explanation of REST / CRUD API: https://www.codecademy.com/articles/what-is-crud
+- Sample, test REST API: https://jsonplaceholder.typicode.com/. Can point stuff at it just to experiment with an API running on a different server.
+- Good discussion of feature branch workflow: https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
 
+## 2019_04_17
 
+I just learnt more about npm and PATHs and permissions than I ever wanted to.
+I was trying to install gatsby so that it would run from the terminal. I don't know why but earlier I made a directory to install things to called /.npm-global it was where I installed all the previous packages to. I think I made it to avoid changing permissions to my /usr/local/ folder. I finally did that and now everything is running fine.
+```bash
+sudo chown -R jay.swanson: /usr/local/lib/node_modules
+```
+The above gave me proper permissions to install globally and run from the command line. The files i was downloading into the .npm-global folder we .js and if I tried copying the PATH it still wouldn't execute. I don't know why but we're working now.
 
+*Might have to reinstall other packages or change my npm prefix when I want to use them*
+```bash
+npm install -g gatsby-cli
+npm install -g gatsby
+npm -g ls --depth=0 #lists what is currently installed with npm
+```
+Got the site up and running. Had to use travis and generate a GITHUB_TOKEN to deploy via GitHub link.
 
+I have to figure out deploying because travis changed my master branch.
 
+Also took a while to realize git doesn't recognize changes in case.
 
+*BOOKS CAME IN!*
+- The Pragmatic Programmer: From Journeyman to Master.
+- Design Patterns: Elements of Reusable Object-Oriented Software
+- Design Patterns Explained: A New Perspective on Object-Oriented Design
 
+tableau public to display data from sheets.
 
 
 
