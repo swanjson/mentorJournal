@@ -193,7 +193,17 @@ tableau public to display data from sheets.
 
 link for travis: https://travis-ci.com/swanjson/swanjson.github.io
 
+## 2019_04_19
 
+Goals for the day:
+- Finish my input on website
+- Start/Finish Javascripting school
+- Get all of mike's recs/tutorials downloaded (postman, etc.)
+
+
+Website is deployed on github. [My New Website](swanjson.github.io) Now i'm filling it all in with my info.
+
+Downloaded Postman - good testing tool for hitting REST API endpoints and seeing the responses that come back. It can get complex if you want it to, but it also just allows for quick and dirty trying out HTTP requests and seeing responses. Works on webpages, too, but you'll just get the raw HTML.
 
 
 
