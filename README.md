@@ -196,8 +196,8 @@ link for travis: https://travis-ci.com/swanjson/swanjson.github.io
 ## 2019_04_19
 
 Goals for the day:
-- Finish my input on website
-- Start/Finish Javascripting school
+- Finish my input on website (Roughly done?)
+- Start/Finish Javascripting school (DONE)
 - Get all of mike's recs/tutorials downloaded (postman, etc.)
 
 
@@ -205,11 +205,25 @@ Website is deployed on github. [My New Website](swanjson.github.io) Now i'm fill
 
 Downloaded Postman - good testing tool for hitting REST API endpoints and seeing the responses that come back. It can get complex if you want it to, but it also just allows for quick and dirty trying out HTTP requests and seeing responses. Works on webpages, too, but you'll just get the raw HTML.
 
-Finished "javascripting." I learned js syntax. This was so much easier than anything node.js related. The only one I struggled with was the arrayFiltering.js because I didn't know what .filter() expected.
+Finished "javascripting." I learnt js syntax. This was so much easier than anything node.js related. The only one I struggled with was the arrayFiltering.js because I didn't know what .filter() expected.
+
+Now I want to finish learnyounode. But this takes a little more learning. I'm going to trying and start my project.
 
 QUESTIONS FOR MIKE:
 - When git branching do I have to be in the same folder i initialized the git? What happened with my website master branch. travis changed it then i branched to make sure i had an editable file. was that the right thing to do or should i have branched to deploy?
+- why do i have to :wq when i do
+```bash
+git branch -a
+```
+-is there a way to get rid of branches after merged? a way to double check they're merged?
 
+Website todo:
+- Website won't publish my second USU job. Is that because they're the same title?
+- remove all of joel's photos
+- design title bar logo.
+
+Mike if you're checking this out it's on branch "myFirstApi"
+Alright. I'm jumping into building my first API. I'm going to do the whole project via a branch.
 
 
 
