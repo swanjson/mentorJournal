@@ -205,6 +205,7 @@ Website is deployed on github. [My New Website](swanjson.github.io) Now i'm fill
 
 Downloaded Postman - good testing tool for hitting REST API endpoints and seeing the responses that come back. It can get complex if you want it to, but it also just allows for quick and dirty trying out HTTP requests and seeing responses. Works on webpages, too, but you'll just get the raw HTML.
 
+Finished "javascripting." I learned js syntax. This was so much easier than anything node.js related. The only one I struggled with was the arrayFiltering.js because I didn't know what .filter() expected.
 
 QUESTIONS FOR MIKE:
 - When git branching do I have to be in the same folder i initialized the git? What happened with my website master branch. travis changed it then i branched to make sure i had an editable file. was that the right thing to do or should i have branched to deploy?
