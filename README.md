@@ -241,5 +241,27 @@ Questions for Mike:
 
 Meeting with Mike at 12p.
 
+- gh_pages
+- travis is running containers
+- Why is travis free? 
+- Create pull request for branches. They are better for workflow. Better documentation. Final movement when feature is done.
+- JS .filter() is a high-level function that takes a function
+- Change key on 
+- React is functions that eventually turn into HTML 
+- React Native?
+- Could be pwd related? replace ~ with pwd and see what 
+- git stash (https://git-scm.com/book/en/v1/Git-Tools-Stashing) Mike used it for making changes and seeing if your changes are breaking stuff.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
