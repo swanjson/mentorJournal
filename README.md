@@ -232,10 +232,14 @@ Having an issue with my adb scripts.
 
 Questions for Mike:
 - There seems to be a difference running a bash script from the terminal via PATH or "/.script" vs double clicking the executable file. I wonder if it's something with synchronicity. Do you know the difference between those two executions or what's going on?
+- Does branching create copies of files?
+- Explain react
 
 - The following is happening with some of my branches:![git branch -a](https://user-images.githubusercontent.com/37157901/56522003-392bf480-6503-11e9-823c-e8322751a663.png) What do the red titles at the bottom mean?
 
+## 2019_04_23
 
+Meeting with Mike at 12p.
 
 
 
