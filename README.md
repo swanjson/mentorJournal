@@ -233,27 +233,32 @@ Having an issue with my adb scripts.
 Questions for Mike:
 - There seems to be a difference running a bash script from the terminal via PATH or "/.script" vs double clicking the executable file. I wonder if it's something with synchronicity. Do you know the difference between those two executions or what's going on?
 - Does branching create copies of files?
-- Explain react
+- Explain react.
 
-- The following is happening with some of my branches:![git branch -a](https://user-images.githubusercontent.com/37157901/56522003-392bf480-6503-11e9-823c-e8322751a663.png) What do the red titles at the bottom mean?
+- The following is happening with some of my branches:![git branch -a](https://user-images.githubusercontent.com/37157901/56522003-392bf480-6503-11e9-823c-e8322751a663.png) What do the red titles at the bottom mean? - red titles just mean remote nodes. The colon means you press space bar to continue.
 
 ## 2019_04_23
 
 Meeting with Mike at 12p.
 
-- gh_pages
+- gh_pages is what happened when travis was deployed.
 - travis is running containers
 - Why is travis free? 
-- Create pull request for branches. They are better for workflow. Better documentation. Final movement when feature is done.
+- Create pull request for branches. They are better for workflow. Better documentation. Final movement when feature is done. Do this instead of git merge.
 - JS .filter() is a high-level function that takes a function
-- Change key on 
+- Change key on index.js for work profile website.
 - React is functions that eventually turn into HTML 
-- React Native?
 - Could be pwd related? replace ~ with pwd and see what 
 - git stash (https://git-scm.com/book/en/v1/Git-Tools-Stashing) Mike used it for making changes and seeing if your changes are breaking stuff.
 
+## 2019_04_24
 
+- pwd and home folder directories was completely the problem.
+- React is JS that turns into html. React native is for mobile platforms.
 
+## 2019_05_09
+
+- Started on myFirstApi branch, refer to myFirstApi/README.md for progress
 
 
 
