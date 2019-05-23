@@ -211,6 +211,11 @@ QUESTIONS FOR MIKE:
 - When git branching do I have to be in the same folder i initialized the git? What happened with my website master branch. travis changed it then i branched to make sure i had an editable file. was that the right thing to do or should i have branched to deploy?
 
 
+## 2019_04_23
+
+-Downloaded iTerm and oh my zsh (https://medium.freecodecamp.org/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156) . Using iTerm 2 + Solarized Dark with 14pt Menlo Font.
+
+
 
 
 
