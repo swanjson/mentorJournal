@@ -70,7 +70,7 @@ Setup params in postman to send to server
 
 Used body parser to make url enccoded forms readable on its own
 
-Using mlab to setup my Mongo database
+Using MongoDB to setup my cluster because mlab was acquired by MongoDB
 
 
 
