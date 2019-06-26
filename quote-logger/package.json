@@ -1,0 +1,29 @@
+{
+  "name": "rackbuilder-backend",
+  "version": "1.0.0",
+  "description": "backend for rackBuilder",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swanjson/rackBuilder-backend.git"
+  },
+  "author": "JS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swanjson/rackBuilder-backend/issues"
+  },
+  "homepage": "https://github.com/swanjson/rackBuilder-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
