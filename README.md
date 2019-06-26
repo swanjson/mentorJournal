@@ -213,13 +213,23 @@ QUESTIONS FOR MIKE:
 
 ## 2019_04_23
 
--Downloaded iTerm and oh my zsh (https://medium.freecodecamp.org/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156) . Using iTerm 2 + Solarized Dark with 14pt Menlo Font.
+- Downloaded iTerm and oh my zsh (https://medium.freecodecamp.org/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156) . Using iTerm 2 + Solarized Dark with 14pt Menlo Font.
+- Going to try to upload my spreadsheet.
 
 
+## 2019_06_07
+
+Using
 
 
-
-
+- Redux can make buttons disabled then when response is returned it enables it again.
+- pass object as string or pass as string then convert. 
+```javascript
+JSON.parse()
+JSON.stringify()
+```
+- Mongoose connects to Mongo by making schemas
+- async await
 
 
 
