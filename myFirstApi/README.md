@@ -79,7 +79,9 @@ Questions:
 - Should I split up routes into separate files or not?
 
 
+## 2019_06_26
 
+Stopped because I couldn't figure out mLab. I figured it out in another tutorial.
 
 
 

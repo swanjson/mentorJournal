@@ -196,8 +196,8 @@ link for travis: https://travis-ci.com/swanjson/swanjson.github.io
 ## 2019_04_19
 
 Goals for the day:
-- Finish my input on website (Roughly done?)
-- Start/Finish Javascripting school (DONE)
+- Finish my input on website
+- Start/Finish Javascripting school
 - Get all of mike's recs/tutorials downloaded (postman, etc.)
 
 
@@ -205,68 +205,31 @@ Website is deployed on github. [My New Website](swanjson.github.io) Now i'm fill
 
 Downloaded Postman - good testing tool for hitting REST API endpoints and seeing the responses that come back. It can get complex if you want it to, but it also just allows for quick and dirty trying out HTTP requests and seeing responses. Works on webpages, too, but you'll just get the raw HTML.
 
-Finished "javascripting." I learnt js syntax. This was so much easier than anything node.js related. The only one I struggled with was the arrayFiltering.js because I didn't know what .filter() expected.
-
-Now I want to finish learnyounode. But this takes a little more learning. I'm going to trying and start my project.
+Finished "javascripting." I learned js syntax. This was so much easier than anything node.js related. The only one I struggled with was the arrayFiltering.js because I didn't know what .filter() expected.
 
 QUESTIONS FOR MIKE:
 - When git branching do I have to be in the same folder i initialized the git? What happened with my website master branch. travis changed it then i branched to make sure i had an editable file. was that the right thing to do or should i have branched to deploy?
-- why do i have to :wq when i do
-```bash
-git branch -a
-```
--is there a way to get rid of branches after merged? a way to double check they're merged?
 
-Website todo:
-- Website won't publish my second USU job. Is that because they're the same title?
-- remove all of joel's photos
-- design title bar logo.
-
-Mike if you're checking this out it's on branch "myFirstApi"
-Alright. I'm jumping into building my first API. I'm going to do the whole project via a branch.
-
-
-## 2019_04_22
-
-Having an issue with my adb scripts.
-
-Questions for Mike:
-- There seems to be a difference running a bash script from the terminal via PATH or "/.script" vs double clicking the executable file. I wonder if it's something with synchronicity. Do you know the difference between those two executions or what's going on?
-- Does branching create copies of files?
-- Explain react.
-
-- The following is happening with some of my branches:![git branch -a](https://user-images.githubusercontent.com/37157901/56522003-392bf480-6503-11e9-823c-e8322751a663.png) What do the red titles at the bottom mean? - red titles just mean remote nodes. The colon means you press space bar to continue.
 
 ## 2019_04_23
 
-Meeting with Mike at 12p.
-
-- gh_pages is what happened when travis was deployed.
-- travis is running containers
-- Why is travis free? 
-- Create pull request for branches. They are better for workflow. Better documentation. Final movement when feature is done. Do this instead of git merge.
-- JS .filter() is a high-level function that takes a function
-- Change key on index.js for work profile website.
-- React is functions that eventually turn into HTML 
-- Could be pwd related? replace ~ with pwd and see what 
-- git stash (https://git-scm.com/book/en/v1/Git-Tools-Stashing) Mike used it for making changes and seeing if your changes are breaking stuff.
-
-## 2019_04_24
-
-- pwd and home folder directories was completely the problem.
-- React is JS that turns into html. React native is for mobile platforms.
-
-## 2019_05_09
-
-- Started on myFirstApi branch, refer to myFirstApi/README.md for progress
+- Downloaded iTerm and oh my zsh (https://medium.freecodecamp.org/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156) . Using iTerm 2 + Solarized Dark with 14pt Menlo Font.
+- Going to try to upload my spreadsheet.
 
 
+## 2019_06_07
+
+Using
 
 
-
-
-
-
+- Redux can make buttons disabled then when response is returned it enables it again.
+- pass object as string or pass as string then convert. 
+```javascript
+JSON.parse()
+JSON.stringify()
+```
+- Mongoose connects to Mongo by making schemas
+- async await
 
 
 
