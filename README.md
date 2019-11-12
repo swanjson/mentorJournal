@@ -231,5 +231,265 @@ JSON.stringify()
 - Mongoose connects to Mongo by making schemas
 - async await
 
+## 19_06_26 Meeting
+
+BEFORE:
+- Google Cloud summary compilation and questions
+- Rest vs. restful vs. CRUD (rails? ruby on rails? for JSON apis?) READ: https://www.codecademy.com/articles/what-is-crud
+- Compile README.md
+- put Euclid's c++ on github
+
+
+I reorganized my GitHub. Self-learning projects i've put into `mentorJournal` then I left the demo `mentoring-app` forked from Mike's original creation just in case we use it again.
+
+### mentorJournal/myFirstAPI
+- Stopped because the guide needed to connect to mLab
+
+### mentorJournal/quote-builder
+- Logs quotes. Full stack project. Completed uses MongoDB and needs to be whitelists to work.
+- Uses `npm run dev` script so I don't have to constantly refresh when updating backend.
+- ?How do I pass in private variables or credentials (Database connection URL)?
+- ?ejs is a template engine but react is a js library for building UIs. They both allow dynamic html writing via hybrid code?
+
+### mentorJournal/node-easy-notes-app
+- IN PROGRESS
+- Full restful crud API
+
+### mentoring-app -branch> jaysAdditions
+- The playground you created that I tweaked slightly.
+- Uses Axios, has a query component, API call, camData.json, responses, alerts, stringify
+
+### rackbuilder
+- Front end for the eventual larger project.
+- ?Should I even use Redux? Or global states? reducers? How do I know if I should be using that type of library? Based on the data i'm manipulating or what?
+- ?How do I convert or link the JSON tags to the states or calls within the frontend?
+- ?Bootstrap tables? Bootstrap and jQuery? It looked easy to add remove buttons
+- ?How would I make inline text input where I could input quantities and have a state for the quantities? It would also need to ignore repeated input.
+- ?- how to parse current input(state) and search for double words within text? Ex. "blue alien"
+
+### rackbuilder-backend
+- This is a copy of quote-logger.
+
+
+//I want to find the script where i can npm run dev and know where that is.
+
+
+
+
+Questions:
+- Please tell me if this is something I should easily be able to find on my own or if I'm ever asking the 'wrong' questions.
+Google:
+	- Just want to get your take on cloud computing. Please explain containers!!! VM instances?
+	- Scaling? how does that play into full stack??
+	- Load balancing? HTML vs TCP/SSL
+- Git merge after pull req. how to resolve merge conflicts through the terminal?
+- If I continue with rackbuilder the way I am right now, will i be able to make those calls to the back end a lot easier?
+- How did they handle that whole github vunerabilities thing?
+
+- Is ifit doing differential(fuzzing) testing? How?
+- Do you have a .gitignore creation script?
+- Script to scrape GitHub of posted credentials? How to delete older versions? Full copy delete then reupload?
+
+
+Todo:
+- Walkthrough for full CRUD?:
+https://www.callicoder.com/node-js-express-mongodb-restful-crud-api-tutorial/
+-Another node.js CRUD https://www.freecodecamp.org/news/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2/
+- If I want to learn REDUX:
+https://www.youtube.com/watch?v=OSSpVLpuVWA
+- RSA Prime number generator?
+
+
+## 19_07_02 Meeting
+
+BEFORE:
+- Google Cloud summary compilation and questions
+- Rest vs. restful vs. CRUD (rails? ruby on rails? for JSON apis?) READ: https://www.codecademy.com/articles/what-is-crud
+- Compile README.md
+- put Euclid's c++ on github
+
+## 2019_08_05
+
+-What does it take to step into a junior developer position?
+	-justin just applied, and they said he needed more experience
+	-should I take hackerrank tests?
+	-one on my team is getting transitioned into a dev position.
+	-i've made scripting additions
+	-What can i do right now to put me in a better position?
+	-Should I work on speed? thouroughness? personal projects?
+	-How often should I be seeking a new job?
+
+-I want to watch you do your thing
+
+
+
+
+rackBuilder(branch: pull down from bring-borrow-logic-and-creation):
+-I was stuck on pushing an array onto an array instead of pushing objects onto an array. My logic is pretty tight though. 13 cases two ranges can overlap and I have it down to 3 cases.
+-is there a better way I could've done it?
+-potential security vunerablities?
+	-didn't ifit come up with a way to automatically handle that?
+	-what should I do about it?
+-Help me write a unit test please!
+-Should i separate any of my functions/components?
+-Is there a way to delete selected objects from arrays without index? (See remove functions on ParentCompare)
+-REAAAALLLY need help with the architecture of my comparisons! I don't know when to call the checks to compare and how to keep them consistent.
+
+-What i have now I'm pretty sure is a rendering issue. Unique key's for my create list functions? OnChange default value?
+
+-Need help with my HaveRackBar and NeedRackBar quantity boxes and assigning values/onchange.
+
+-Environmental clicks canceling suggestions.
+
+
+## 2019_08_06 
+
+###general questions
+	- Want to generally cover career stuff.
+	- spoke to older tech recruiter and he said the best thing you can get is someone saying they write beautiful code and to get in touch with the engineering director
+	- What does it take to step into a junior developer position?
+	- my buddy justin just applied, and they said he needed more experience (he's been doing full stack auto for a year)
+	- should I practice with hackerrank tests? or keep going with projects?
+	- one on my team is getting transitioned into a dev position for building the app/admin (i've seen his project and it's pretty simple)
+	- i've made scripting github contributions
+	- What can i do right now to put me in a better position?
+	- Should I work on speed? thouroughness? personal projects?
+	- How often should I be seeking a new job?
+
+- I want to watch you do your thing
+
+- can you give me a less hairy work task?
+	-Little brother with an unplugged controller
+
+
+
+
+###rackBuilder(branch: pull down from bring-borrow-logic-and-creation):
+- I was stuck on pushing an array onto an array instead of pushing objects onto an array. My logic is pretty tight though. 13 cases two ranges can overlap and I have it down to 3 cases.
+- is there a better way I could've done it?
+- potential security vunerablities?
+	-didn't ifit come up with a way to automatically handle that?
+	-what should I do about it?
+- Help me write a unit test please!
+- Should i separate any of my functions/components?
+- Is there a way to delete selected objects from arrays without index? (See remove functions on ParentCompare)
+- REAAAALLLY need help with the architecture of my comparisons! I don't know when to call the checks to compare and how to keep them consistent.
+
+- What i have now I'm pretty sure is a rendering issue. Unique key's for my create list functions? OnChange default value?
+
+- Need help with my HaveRackBar and NeedRackBar quantity boxes and assigning values/onchange.
+
+- Terminal won't display nested arrays of objects SOLUTION: console.log(JSON.stringify(arrayOfObjects, null, 2));
+
+
+
+Answers:
+-they setup babel to make things more uniform, typescript might have some of the import stuff too
+- plain js i can do "const CamObjects = require('./CamObjects')"
+-declaration of variables for objects "const {selH: highMM} = camTemps[i];"
+-Test driven design is made from writing the tests as you write the code.
+-`yarn test` to run tests
+
+
+# Google Cloud conference review:
+
+BIG QUERY on gcp for big data has the data from the NCAA and Wikipedia.
+
+
+Languages to Review:
+- Ruby
+- Rails
+- GO
+- Scala
+- Oracle (memory allocation?)
+- Jupyter / Colossus
+- Cloud Pub/Sub Internet of Things (Basically BANs)
+- TensorFlow (PhD level machine learning)
+- Spark, Pig, Hive
+- Kubernetes open source containers
+- mySQL / PostgreSQL
+- Cloud ID instead of IP address accessing from it's IAM based on what they're trying to access (secure?)
+- Relational Databases?
+- Docker
+- Cloud Spanner API
+- Neural Networks
+- Anthos
+
+
+GCP App Engine:
+- can be used to run web apps
+- web/mobile backends
+- 'containerized' apps
+- 'container-based workloads'?
+- Stackdriver to monitor apps
+
+Machine Learning:
+- Division API?
+- Cloud Speech API?
+
+
+
+## 2019_09_13
+
+NOTES ON RACKBUILDER
+	- 'some' function stops at the first found isntead of 'filter' or 'find'
+```javascript
+const gear = rackNeeded.find(e => e.id === camId);
+```
+	- I should look up the documentation for array functions
+	- jest is inculded in react for unit testing
+	- I should start including unit tests (see meeting recording)
+
+Code Katas!!! Do the gilded rose kata uploaded by mike.
+
+Contribute to an open source project.
+
+SOLID Principles (Object oriented principles)
+
+typeScript is just js with types (kind of like another test to make sure functions are receiving and returning the right things)
+
+Jeremiah Workman - Working on data from comments.
+Andy Meyers - Using ML to find recommended workouts.
+
+Set up a meeting or two!
+
+## 2019_10_22
+
+mentor2019_10_21
+
+My rackbuilder is adding, removing and comparing correctly now (I think). I now want to take similar sized cams into account. I've already done the comparisons to other cams and have the list of similar cams stored. I'm trying to figure out when to do the comparison check/add for similar cams.
+
+- Add options from yourRack if you have them to bringRack. If not add several options to borrowRack.
+
+- Should I subtract from yourRack or should I make a new modified object?
+
+- What is the deal with console saying unique ids?
+
+- What is it saying when switching branches says "Your branch and 'origin/master' have diverged,
+and have 21 and 1 different commits each, respectively."
+	- What's the difference between origin/master and master?
+	- Proper PR to CLI format?
+	- `git remote update` yields: "Your branch is behind 'origin/master' by 4 commits, and can be fast-forwarded."
+	- so just do the above and then git pull?
+	- "fast forward"?
+
+
+- Also why is my bring and buy/borrow list staggered? (CSS ISSUE)
+
+- Add similar cam checker. Enter cam with drop down menus. Display output of: % similarity, price and weight.
+
+- Add images to cams added on side column with hover over option to say what it is with plus/minus option
+
+
+NOTES:
+
+-Pass in prev states
+-Create tests for bring borrow compare.
+-Rainbow brackets vs code extension
+-Only merge from/to master if there are merge conflicts
+-Fast forward is just pulling the most recent master because there were changes on master before there were changes on your new branch
+-Pad my other lists so they're not staggered and change opacity for color
+
+
 
 
