@@ -490,6 +490,85 @@ NOTES:
 -Fast forward is just pulling the most recent master because there were changes on master before there were changes on your new branch
 -Pad my other lists so they're not staggered and change opacity for color
 
+## 2019_11_12
+
+# Mentor Transfer
+
+Hey Jay! Here's a little recap and background for what we're jumping into.
+
+About me:
+I'm finishing up my computer engineering degree at USU. I started off mechanical then switched to computer after my first coding class. I'm fairly confident with c/c++, python, vdhl/verilog, bash scripting and webscraping. I've been teaching myself JS/TS, HTML and CSS via MEAN stack pet projects. My goal would be to learn more about full-stack development, databases, hardware programming, or automation. Level of interest is probably in that order. I'm a student right now in computer vision, microcontrollers, programming architecture, computer networking. Hoping to graduate next fall.
+
+Mike and I were paired early April of this year and have been meeting weekly since. We usually meet for an hour and discuss progress/strategy for the next meeting. He's been super helpful and knowledgeable. I originally started a webscraping project in python to pull data from wikipedia in hopes of making a fungal taxonomy app. As my interests and focus shifted I decided to switch over to a more JS heavy project. I manually collected data on climbing camming devices and have been working with that since. The eventual goal being a full-stack web app used for cam comparison. I've done a few small projects to help with that along the way including a quote-builder app and part of a notes app.
+
+I have a list of goal below but the overall goal would be some sort of employment.
+
+## What i've accomplished already:
+- Learnt how to setup react projects
+- Some JS and nodejs coding experience
+	- Downloaded all relevant software and packages
+	- Setup on github and npm for ifit
+- Gained working knowledge of git
+
+
+## Things i'm interested in:
+- Computer Vis
+- Automation/Scripting
+- Data
+	- Data Vis
+- Full-Stack
+
+## My current goals:
+- Finish rackBuilder
+	- Add similar cam comparison functionality
+	- Add user capability (database storage)
+	- Add single cam comparison
+	- Add test cases
+	- Refactor existing code (similarCamCompare)
+	- Add images for each cam type on side column
+- Get summer internship/job
+	- Complete Resume
+	- Complete Website
+- Postman!
+- Contribute to an open source project (fix an issue/add a feature)
+- Solve a bug start to finish (bug,fix,PR,push)
+- Get a working knowledge of SQL (seems to be universally useful)
+- Start doing some code katas.
+
+mentorJournal Breakdown:
+### mentorJournal/myFirstAPI
+- Stopped because the guide needed to connect to mLab
+
+### mentorJournal/quote-builder
+- Logs quotes. Full stack project. Completed uses MongoDB and needs to be whitelists to work.
+- Uses `npm run dev` script so I don't have to constantly refresh when updating backend.
+- ?How do I pass in private variables or credentials (Database connection URL)?
+
+### mentorJournal/node-easy-notes-app
+- IN PROGRESS
+- Full restful crud API
+
+### mentoring-app -branch> jaysAdditions
+- The playground you created that I tweaked slightly.
+- Uses Axios, has a query component, API call, camData.json, responses, alerts, stringify
+
+### rackbuilder
+- Front end for the eventual larger project.
+- Reading data from JSON file and displaying items based on comparing data
+
+### rackbuilder-backend
+- This is a copy of quote-logger.
+
+
+QUESTIONS:
+- How did you come about being at ifit?
+- What are some of your career goals? 
+
+
+TO DO:
+- Have res/website ready by next week
+- Create speaking crontab bot repo
+- Keep going on rackBuilder
 
 
 
