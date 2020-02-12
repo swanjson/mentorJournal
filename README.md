@@ -570,5 +570,138 @@ TO DO:
 - Create speaking crontab bot repo
 - Keep going on rackBuilder
 
+## 2019_12_17
+
+talk about NN, and ML via computer vision project from finals
+
+practical vim and pragmatic programmer
+
+QUESTIONS:
+- How do they block api requests? Is it by IP address? What about different devices on the same network. Could a pi cluster data farm faster?
+
+
+Rest client
+Walk through chrome dev tools. How to use an api with a bearer token?
+
+
+Notes from meeting:
+axios library for API requests.
+
+native fetch for api calls. DOM API window
+
+requests and promises, await that, .then
+
+push promises into an array
+
+
+iFit is going to embrace 16.8 and on.
+
+
+Dan abrimov
+A guided tour of react hooks off the reddit.
+
+
+Redux
+React Context
+React Hooks - do away with render prop and higher order
+Prop drilling (tiers of props)
+flux architecture
+Redux and React dev tools (targeting and styling)
+
+
+https://github.com/Huachao/vscode-restclient
+https://nodeweekly.com/issues/310
+https://javascriptweekly.com/issues/463
+https://kentcdodds.com/blog/
+https://www.reddit.com/r/reactjs/comments/eay5cg/my_top_react_techtalks_of_2019/
+https://hero35.com/react-boston/2019/a-guided-tour-of-react-hooks 
+
+# 2019_01_07
+
+## mentorMeeting
+Questions:
+- c-r-a/npx c-r-a, the former is 'missing start script' He said that it might be because of versioning? like babel?
+- Can you explain babel? Downgrades high level JS into ES5, included in c-r-a
+- Resume
+- p5 library for game development? Any other recs? I'm good as long as they can run npm install npm start
+- Build publishable smaller projects with over arching idea.
+- I'm going to build a smaller rack builder project
+	- Shows only related items to selected cam from drop down menus
+	- Shows images
+- Any discord communities? Do you have a guru?
+
+flipFlop based:
+- Know what 'Lua' is? Must be for 
+- Google cloud functions, async and such
+- Setting up a database (put csvs into database and update with every pull)
+- Google visualization? How do i protect my data? Minify?
+- Scrape update pages for items that could be used in the future.
+- How should I set up this website/database/pi server?
+
+Notes from meeting:
+- Jay used manipulation and created a grid as playfield.
+- Dungeon creator
+- SQL or MongoDB (no structure, document based, can restrict)
+- wrapper around a wrapper (mongoose)
+- mongoDB university (dev-101), aggregation
+- Highcharts 
+- Create diary/youtube vid summarizing project. Can be privatized.
+
+
+# 2019_01_10
+
+Lookup:
+- Quadtree
+- Go
+- K8
+- Docker
+- Postgres
+- gcloud
+- Serverless online
+- How does wikis use Lua
+
+serverless is framework making lambda easier to devolop (python nodejs or ts)
+
+vpc on aws and vpc management
+
+create different subnets to make different IPs (IPv4 CIDR block)
+
+# 2019_01_14
+
+meeting notes:
+- node process environment
+- chaining -> function that returns object that returns everything of the same and adds on it
+- REACT_APP_ENV
+- Mutation testing
+- heckle runs on docker container
+
+
+postgres, nosql, sql, 
+
+sql - 
+post - implementation of sql (with a little bit more)
+nosql - (like mongodb) not limited to table based data, can mimic sql, might use one or other depending on dataset or scalability. Mongo is very scalable. makes it easy to have different server instances.
+
+
+"wolf-workouts-service" to see about test case basics
+
+
+heroku - used to publish projects, application hosting.
+gatsby for static pages.
+might have mongo included.
+
+Tableau
+
+MAKE tinyRackBuilder's data private??? code should be fine??
+MAKE token or code to view the youtube video for a certain amount of time.
+
+
+
+
+
+
+
+
+
 
 
