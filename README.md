@@ -616,7 +616,7 @@ https://kentcdodds.com/blog/
 https://www.reddit.com/r/reactjs/comments/eay5cg/my_top_react_techtalks_of_2019/
 https://hero35.com/react-boston/2019/a-guided-tour-of-react-hooks 
 
-# 2019_01_07
+# 2020_01_07
 
 ## mentorMeeting
 Questions:
@@ -648,7 +648,7 @@ Notes from meeting:
 - Create diary/youtube vid summarizing project. Can be privatized.
 
 
-# 2019_01_10
+# 2020_01_10
 
 Lookup:
 - Quadtree
@@ -666,7 +666,7 @@ vpc on aws and vpc management
 
 create different subnets to make different IPs (IPv4 CIDR block)
 
-# 2019_01_14
+# 2020_01_14
 
 meeting notes:
 - node process environment
@@ -695,7 +695,12 @@ Tableau
 MAKE tinyRackBuilder's data private??? code should be fine??
 MAKE token or code to view the youtube video for a certain amount of time.
 
+# 2020_02_26
 
+What is the difference between checking out a merge/commit???? vs reset??
+
+
+QR codes directly translate into text.
 
 
 
