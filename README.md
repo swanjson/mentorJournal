@@ -695,6 +695,118 @@ Tableau
 MAKE tinyRackBuilder's data private??? code should be fine??
 MAKE token or code to view the youtube video for a certain amount of time.
 
+# 2020_02_26
+
+- https://frontendmasters.com/
+
+
+Udemy
+How to Program Games: Tile Classics in JS for HTML5 Canvas
+
+https://justjavascript.com/
+
+
+https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles.html
+
+What is the difference between checking out a merge/commit???? vs reset??
+
+QR codes directly translate into text.
+
+# 2020_03_11
+
+## Meeting notes with jay
+
+### His notes:
+```js
+bringBorrowCompare = (camId) => {
+this.setState((prevState) => {
+  const bringRack = prevState.bringRack;
+  const borrowRack = prevState.borrowRack;
+  const rackNeeded = prevState.rackNeeded;
+  const yourRack = prevState.yourRack;
+  const inNeed = rackNeeded.find(e => e.id === camId);
+  const inHave = yourRack.find(e => e.id === camId);
+```
+```js
+bringBorrowCompare = (camId) => { 
+this.setState(({bringRack, borrowRack, rackNeeded, yourRack}) => {
+  const inNeed = rackNeeded.find(e => e.id === camId);
+  const inHave = yourRack.find(e => e.id === camId);
+```
+
+can also do:
+```js
+this.setState((prevState) => {
+  const {
+    bringRack,
+    borrowRack,
+    rackNeeded,
+    yourRack,
+   } = prevState;
+   // what might be the advantage of doing it this way?
+```
+The advantage of the last method is simplicity and ease for another author/reader. Completely human based.
+
+
+Don't mutate the arguments of a function -> makes for more functional code
+ - instead I should copy the state array and return the new copy
+
+break out into separate functions for blocks of ifs. Use early returns instead of if/else
+
+### My notes:
+
+Short circuiting and operators
+
+```js
+const inNeed = rackNeeded.find(e => e.id === camId);
+const inNeed = rackNeeded.find(e => e.id === camId) || {quantity: 0}; // Or means that if the first part fails then it returns the second part
+print(‘hello’ && ‘jay’); 
+// prints 'jay'
+// The AND will print the last thing and run all the operations/functions before the last one.
+
+print(‘hello’ && null); 
+// prints null
+// The AND will print the last thing and run all the operations/functions before the last one.
+```
+
+TERNARY / CONDITIONAL OPERATOR
+
+```js
+condition ? 'if truthy' : 'if falsy';
+```
+
+```js
+function getFee(isMember) {
+  return (isMember ? '$2.00' : '$10.00');
+}
+
+console.log(getFee(true));
+// expected output: "$2.00"
+
+console.log(getFee(false));
+// expected output: "$10.00"
+
+console.log(getFee(1));
+// expected output: "$2.00"
+```
+Ternary are necessary for writing if/else statements in jsx
+
+SPREAD, TRIPPLE DOT OPERATOR, REST OPERATOR
+```js
+const rackNeeded = [...prevState.rackNeeded]
+```
+
+Goals:
+- pull out bringBorrowCompare and put it into a module
+- write test cases for the separate modules
+- rackBuilder: declare with spread operators like in `addCamToRackNeeded`
+- Look up rest functions and spread operators
+- find out difference between checking out a merge/commit?? vs reset???
+
+
+
+
+
 
 
 
