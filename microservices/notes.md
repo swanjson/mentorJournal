@@ -64,8 +64,44 @@ Comments
 
 
 
+->BLOG
+```bash
+	npx create-react-app client
+```	
+	->Posts
+```bash
+	npm init -y
+	npm install express cors axios nodemon
+```
+	->Comments
+```bash
+	npm init -y
+	npm install express cors axios nodemon
+```		
+So i have three terminal windows. client, posts and comments. Client is a react app and the other two are just directories so far.
+
+Posts service should have two methods
+Path	Method 	Body 				Goal
+/posts		POST   {title: string}		Create new post
+/posts		GET 		-				Retrieve all posts
 
 
+Created Post (index.js)
+changed the package.json scripts entry to 
+```json
+	"start": "nodemon index.js"
+```
+start server via terminal and then check with postman
+
+Checked requests with postman. (GET and POST)
+
+
+nodemon - automatic server refreshing?!
+
+Comments service should have two methods
+Path	   				Method 	    Body 				Goal
+/posts/:id/comments		POST   {content: string}		Create comment based on post ID
+/posts/:id/comments		GET 		-				Retrieve all comments based on post ID
 
 
 
