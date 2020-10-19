@@ -104,6 +104,27 @@ Path	   				Method 	    Body 				Goal
 /posts/:id/comments		GET 		-				Retrieve all comments based on post ID
 
 
+What's react observable? rxJS???
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
